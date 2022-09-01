@@ -1,0 +1,8 @@
+Cnpj (Api\Tranferencia\Testes\Cnpj)
+ [x] Cnpj com numero no formato invalido nao deve poder existir
+ [x] Cnpj deve poder ser representado como string
+
+Cpf (Api\Tranferencia\Testes\Cpf)
+ [x] Cpf com numero no formato invalido nao deve poder existir
+ [x] Cpf deve poder ser representado como string
+
