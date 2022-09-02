@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\Transferencia\Infra;
+namespace Api\Transferencia\Infra\Usuario\RepositoriosDeLoja;
 
 use Api\Transferencia\Dominio\Cnpj;
 use Api\Transferencia\Dominio\Usuario\Loja\Loja;

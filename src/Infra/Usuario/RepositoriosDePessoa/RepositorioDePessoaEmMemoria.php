@@ -1,6 +1,6 @@
 <?php
 
-namespace Api\Transferencia\Infra;
+namespace Api\Transferencia\Infra\Usuario\RepositoriosDePessoa;
 
 use Api\Transferencia\Dominio\Cpf;
 use Api\Transferencia\Dominio\Usuario\Pessoa\Pessoa;
