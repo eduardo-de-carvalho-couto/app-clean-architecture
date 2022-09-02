@@ -2,7 +2,7 @@
 
 namespace Api\Transferencia\Dominio;
 
-class Cnpj implements Documento
+class Cnpj
 {
     private string $numero;
 

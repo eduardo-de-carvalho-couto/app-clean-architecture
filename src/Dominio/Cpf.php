@@ -2,7 +2,7 @@
 
 namespace Api\Transferencia\Dominio;
 
-class Cpf implements Documento
+class Cpf
 {
     private string $numero;
 
