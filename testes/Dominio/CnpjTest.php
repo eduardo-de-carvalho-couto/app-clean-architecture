@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Tranferencia\Testes;
+namespace Api\Tranferencia\Testes\Dominio;
 
-use Api\Transferencia\Cnpj;
+use Api\Transferencia\Dominio\Cnpj;
 use PHPUnit\Framework\TestCase;
 
 class CnpjTest extends TestCase

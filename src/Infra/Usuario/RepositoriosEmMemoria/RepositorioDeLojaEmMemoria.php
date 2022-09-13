@@ -19,7 +19,7 @@ class RepositorioDeLojaEmMemoria implements RepositorioDeLoja
     public function buscarPorCnpj(Cnpj $cnpj): Loja
     {
         $lojasFiltradas = array_filter($this->lojas, function(Loja $loja) use ($cnpj){
-            $loja->getDocumento() == $cnpj;
+            return $loja->getDocumento() == $cnpj;
         });
 
         if(count($lojasFiltradas) === 0){

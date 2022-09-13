@@ -18,9 +18,10 @@ class RepositorioDePessoaEmMemoria implements RepositorioDePessoa
 
     public function buscarPorCpf(Cpf $cpf): Pessoa
     {
-        $pessoasFiltradas = array_filter($this->pessoas, function (Pessoa $pessoa) use ($cpf) {
-            $pessoa->getDocumento() == $cpf;
-        });
+        $pessoasFiltradas = array_filter(
+            $this->pessoas,
+            fn (Pessoa $pessoa) => $pessoa->getDocumento() == $cpf
+        );
 
         if(count($pessoasFiltradas) === 0){
             throw new PessoaNaoEncontrada($cpf);

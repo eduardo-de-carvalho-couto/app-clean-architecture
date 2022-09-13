@@ -1,8 +1,21 @@
-Cnpj (Api\Tranferencia\Testes\Cnpj)
+Registrar Loja (Api\Tranferencia\Testes\Aplicacao\Pessoa\RegistrarLoja)
+ [x] Loja deve ser adicionada ao repositorio
+
+Registrar Pessoa (Api\Tranferencia\Testes\Aplicacao\Pessoa\RegistrarPessoa)
+ [x] Pessoa deve ser adicionada ao repositorio
+
+Cnpj (Api\Tranferencia\Testes\Dominio\Cnpj)
  [x] Cnpj com numero no formato invalido nao deve poder existir
  [x] Cnpj deve poder ser representado como string
 
-Cpf (Api\Tranferencia\Testes\Cpf)
+Cpf (Api\Tranferencia\Testes\Dominio\Cpf)
  [x] Cpf com numero no formato invalido nao deve poder existir
  [x] Cpf deve poder ser representado como string
+
+Email (Api\Tranferencia\Testes\Dominio\Email)
+ [x] Email no formato invalido nao deve poder existir
+ [x] Email deve poder ser representado como string
+
+Pessoa (Api\Tranferencia\Testes\Dominio\Pessoa\Pessoa)
+ [x] Pessoa deve ser criada com documento nome e email valido
 

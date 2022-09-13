@@ -12,6 +12,6 @@ class RegistrarPessoaDto
     {
         $this->cpfPessoa = $cpfPessoa;
         $this->nomePessoa = $nomePessoa;
-        $this->emailPessoa = $nomePessoa;
+        $this->emailPessoa = $emailPessoa;
     }
 }

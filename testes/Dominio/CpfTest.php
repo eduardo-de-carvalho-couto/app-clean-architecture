@@ -1,8 +1,8 @@
 <?php
 
-namespace Api\Tranferencia\Testes;
+namespace Api\Tranferencia\Testes\Dominio;
 
-use Api\Transferencia\Cpf;
+use Api\Transferencia\Dominio\Cpf;
 use PHPUnit\Framework\TestCase;
 
 class CpfTest extends TestCase
