@@ -4,13 +4,13 @@ namespace Api\Transferencia\Infra\Usuario\RepositoriosComDoctrine\Helper;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
-use Doctrine\ORM\Tools\Setup;
+use Doctrine\ORM\ORMSetup;
 
 class EntityManagerCreator
 {
-    public function criaEntityManager(): EntityManagerInterface
+    public static function criaEntityManager(): EntityManagerInterface
     {
-        $config = Setup::createXMLMetadataConfiguration(
+        $config = ORMSetup::createXMLMetadataConfiguration(
             [__DIR__ . '/../Mapeamentos']
         );
         $con = [
